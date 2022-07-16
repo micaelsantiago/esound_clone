@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: url('../assets/images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+
+/* HEADER */
+.cabecalho {
+	height: 5vh;
+	background: #121116;
+	color: #FFF;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 40px 0
+}
+
+.cabecalho .logo_img img{
+	width: 30%
+}
+
+.cabecalho .lista ul li {
+	list-style: none;
+	display: inline
+}
+
+.cabecalho .lista ul li a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 0 20px;
+	font-weight: 500;
+	transition: 0.3s
+}
+
+.cabecalho .lista ul li#separador {
+	border-left: 1px solid #FFF;
+	margin: 0 10px
+}
+
+.cabecalho .lista ul li a:hover {
+	color: #0BC909
+}
+
+/* SECTIONS - SECTION 1 */
+.container .secao1 {
+	color: #FFF;
+	text-align: center;
+	margin-top: 150px
+}
+
+.container .secao1 span {
+	font-size: 75px;
+	font-weight: bold
+}
+
+.container .secao1 p {
+	margin: 30px 0;
+	font-size: 25px
+}
+
+
+.container .secao1 button {
+	width: 25%;
+	margin-bottom: 170px;
+	padding: 15px;
+	background: #0BC909;
+	color: #5D61AD;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 20px;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer
+}
+
+
+/* SECTIONS - SECTION 2 */
+.container .secao2 {
+	background: #FFF;
+	text-align: center;
+	padding: 7%
+}
+
+.container .secao2 span {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.container .secao2 p {
+	margin: 20px 0 50px 0;
+	font-size: 20px
+}
+
+.container .secao2 button {
+	width: 25%;
+	padding: 15px;
+	background: #121116;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 20px;
+	border-radius: 50px;
+	border: none;
+	cursor: pointer
+}
+
+
+/* FOOTER */
+.rodape {
+	height: 40vh;
+	background: #121116;
+	color: #FFF;
+	padding: 50px 120px;
+	font-size: 14px;
+	font-weight: 500
+	
+}
+
+.rodape .redes_sociais a,
+.rodape .links a {
+	text-decoration: none;
+	padding: 0 10px
+}
+
+.rodape .redes_sociais a img {
+	width: 20px;
+	margin-bottom: 20px
+}
+
+.rodape .links {
+	display: inline;
+	margin-right: 10%
+}
+
+.rodape .links a {
+	color: #FFF;	
+	transition: 0.3s
+}
+
+.rodape .links a:hover,
+.rodape .direitos span a:hover {
+	color: #0BC909
+}
+
+.rodape .direitos {
+	display: inline
+}
+
+.rodape .direitos span a {
+	text-decoration: none;
+	color: #FFF;
+	transition: 0.3s
+}
